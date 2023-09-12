@@ -3,26 +3,21 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh; /* Ensure the body takes up the entire viewport height */
+    height: 100vh;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    /* background: linear-gradient(126deg, rgba(2,0,36,1) 0%, rgba(73,221,177,1) 0%, rgba(0,178,214,1) 88%); */
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(126deg, rgba(2,0,36,1) 0%, rgba(73,221,177,1) 0%, rgba(0,178,214,1) 88%);
     font-family: 'Poppins', sans-serif;
 }
 
 #weather-card {
     width: 60vh;
     height: 80vh;
-    /* border: 1px solid lightgray; */
     text-align: center;
     border-radius: 14px;
-    background: linear-gradient(126deg, rgba(2,0,36,1) 0%, rgba(73,221,177,1) 0%, rgba(0,178,214,1) 88%);
 
 }
-
-/* Rest of your styles */
-
 
 #search-bar{
     display: flex;
@@ -117,4 +112,9 @@ body {
 
 #title{
     color: white;
+    padding-top: 24px;
+}
+
+footer{
+    text-align: center;
 }

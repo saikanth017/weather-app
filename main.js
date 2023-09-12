@@ -51,9 +51,5 @@ btn.onclick = () => {
         windText.innerText = '-----'
         cloudImage.src = ""
         city.innerText = "-----"
-    })
-    
+    })    
 }
-
-
-
