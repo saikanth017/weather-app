@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    background: linear-gradient(126deg, rgba(2,0,36,1) 0%, rgba(73,221,177,1) 0%, rgba(0,178,214,1) 88%);
+    /* background: linear-gradient(126deg, rgba(2,0,36,1) 0%, rgba(73,221,177,1) 0%, rgba(0,178,214,1) 88%); */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -17,7 +17,7 @@ body {
     /* border: 1px solid lightgray; */
     text-align: center;
     border-radius: 14px;
-    /* background: linear-gradient(126deg, rgba(2,0,36,1) 0%, rgba(73,221,177,1) 0%, rgba(0,178,214,1) 88%); */
+    background: linear-gradient(126deg, rgba(2,0,36,1) 0%, rgba(73,221,177,1) 0%, rgba(0,178,214,1) 88%);
 
 }
 
