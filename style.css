@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure the body takes up the entire viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background: linear-gradient(126deg, rgba(2,0,36,1) 0%, rgba(73,221,177,1) 0%, rgba(0,178,214,1) 88%);
+    font-family: 'Poppins', sans-serif;
+}
+
+#weather-card {
+    width: 60vh;
+    height: 80vh;
+    /* border: 1px solid lightgray; */
+    text-align: center;
+    border-radius: 14px;
+    /* background: linear-gradient(126deg, rgba(2,0,36,1) 0%, rgba(73,221,177,1) 0%, rgba(0,178,214,1) 88%); */
+
+}
+
+/* Rest of your styles */
+
+
+#search-bar{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.44);
+    width: 80%;
+    height: 50px;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 25px;
+    align-items: center;
+}
+
+#search-bar input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 25px;
+    outline: none;
+    font-size: 20px;
+}
+
+#search-bar button{
+    border: none;
+    background-color: transparent;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+#search-bar input::placeholder{
+    color: black;
+    font-size: larger;
+}
+
+#cloud-img{
+    height: 150px;
+    margin-top: 24px;
+}
+
+#temperature{
+    margin: 0;
+    font-size: 50px;
+    color: white;
+}
+
+#city{
+    margin-top: 0;
+    color: white;
+}
+
+
+#sub-result-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#humidity-container{
+    display: flex;
+    gap: 10px;
+}
+
+#humidity-container img{
+    height: 40px;
+}
+
+#humidity-container h2{
+    font-size: 15px;
+    margin: 0;
+    color: white;
+}
+
+#wind-container{
+    display: flex;
+    gap: 10px;
+}
+
+#wind-container img{
+    height: 40px;
+}
+
+#wind-container h2{
+    font-size: 15px;
+    margin: 0;
+    color: white;
+}
+
+#error-msg{
+    margin: 3px auto;
+}
+
+#title{
+    color: white;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/clouds.png" type="image/x-icon">
+    <title>Weather App</title>
+</head>
+<body>
+    <div id="container">
+        <div id="weather-card">
+            <h1 id="title">Weather App</h1>
+            <div id="search-bar">
+                <input id="inputCity" type="text" placeholder="Search City">
+                <button id="btn"><img width="25" height="25" src="https://img.icons8.com/ios-glyphs/30/search--v1.png" alt="search--v1"/></button>
+            </div>
+
+            <div id="result-card">
+                <h3 id="error-msg"></h3>
+                <img id="cloud-img" src="" alt="">
+                <h1 id="temperature">---</h1>
+                <h2 id="city">---</h2>
+                <div id="sub-result-container">
+                    <div id="humidity-container">
+                        <img src="images\humidity.png" alt="">
+                        <div id="humidity">
+                            <h2 id="humidity-text">---</h2>
+                            <h2>Humidity</h2>
+                        </div>
+                    </div>
+                    <div id="wind-container">
+                        <img src="images\wind.png" alt="">
+                        <div id="wind">
+                            <h2 id="wind-text">-----</h2>
+                            <h2>Wind Spped</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
